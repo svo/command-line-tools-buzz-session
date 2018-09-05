@@ -1,2 +1,40 @@
 ---
 - hosts: all
+
+  tasks:
+
+  - name: Install locate
+    apt: pkg=locate
+    become: yes
+
+  - name: Install ncdu
+    apt: pkg=ncdu
+    become: yes
+
+  - name: Install tree
+    apt: pkg=tree
+    become: yes
+
+  - name: Install pstree
+    apt: pkg=psmisc
+    become: yes
+
+  - name: Install nmap
+    apt: pkg=nmap
+    become: yes
+
+  - name: Install lsof
+    apt: pkg=lsof
+    become: yes
+
+  - name: Install mc
+    apt: pkg=mc
+    become: yes
+
+  - name: Install wondershaper
+    apt: pkg=wondershaper
+    become: yes
+
+  - name: Install jq
+    apt: pkg=jq
+    become: yes
