@@ -4,6 +4,15 @@ Commands below assuming `debian:stretch`.
 
 This repository includes a `Vagrant` profile that runs the included `Ansible` to setup a `Virtual Machine` with the tools discussed.
 
+The following setup has been tested for the `Vagrant` host.
+
+```
+mocOS 10.13.6
+Vagrant 2.1.2
+VirtualBox 5.2.14 r123301
+ansible 2.4.3.0
+```
+
 ## locate
 
 Find files on your filesystem quickly using a portion of it's name.
