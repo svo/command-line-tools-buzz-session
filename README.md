@@ -1,6 +1,8 @@
 # Command Line Tools Buzz Session
 
-Commands below assuming `debian:stretch`
+Commands below assuming `debian:stretch`.
+
+This repository includes a `Vagrant` profile that runs the included `Ansible` to setup a `Virtual Machine` with the tools discussed.
 
 ## locate
 
