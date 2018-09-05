@@ -1,0 +1,5 @@
+*.swp
+*.retry
+*.DS_STORE
+
+.vagrant
