@@ -13,6 +13,13 @@ VirtualBox 5.2.14 r123301
 ansible 2.4.3.0
 ```
 
+To start using the commands run the following:
+
+```
+vagrant up
+vagrant ssh
+```
+
 ## locate
 
 Find files on your filesystem quickly using a portion of it's name.
